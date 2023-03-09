@@ -16,7 +16,7 @@
 
         <header>
             <div class="caja">
-                <h1 class="logoChico"><img src="C:\Users\Alan\Documents\HTML\logochico.argPrograma.png" alt="Logo chico de Argentina programa"></h1>
+                <h1 class="logoChico"><img src="logochico.argPrograma.png" alt="Logo chico de Argentina programa"></h1>
                 <nav>
                     <ul>
                         <li><a href="#Datos">Datos personales</a></li>
@@ -28,10 +28,10 @@
         </header>
 
         <div class="fotoPrincipal">
-            <img id="fotoUno" src=" C:\Users\Alan\Documents\HTML\20180314_141530.jpg">
-            <img id="fotoDos" src=" C:\Users\Alan\Documents\HTML\IMG_20211022_093227904.jpg">
-            <img id="fotoTres" src=" C:\Users\Alan\Documents\HTML\IMG_20220127_095820921.jpg">
-            <img id="fotoCuatro" src=" C:\Users\Alan\Documents\HTML\IMG_20221009_081701744.jpg">
+            <img id="fotoUno" src="20180314_141530.jpg">
+            <img id="fotoDos" src="IMG_20211022_093227904.jpg">
+            <img id="fotoTres" src="IMG_20220127_095820921.jpg">
+            <img id="fotoCuatro" src="IMG_20221009_081701744.jpg">
         </div>
 
         <main>
@@ -39,7 +39,7 @@
 
                 <h2 class="tituloPrincipal">Alan Eber Ezequiel Almendras</h2>
 
-                <img class="Logo" src="C:\Users\Alan\Documents\HTML\datosPersonales.avif" alt="Imagen de un Documento">
+                <img class="Logo" src="datosPersonales.avif" alt="Imagen de un Documento">
     
                 <p>Fecha de nacimiento: <strong>05 de Julio de 1988</strong>.</p>
         
@@ -86,13 +86,13 @@
                         <p>Encargado de stock, realizando tareas como apertura y cierre de la sucursal, capacitación, inventario, planificacion logística, ventas y atención de reclamos.</p>
                         <li>DECO-EXPRESS - 2008 - 2009</li> 
                         <p>Asistente funcional, realizando tareas como recepcion de mercadería, ventas y manejo de caja.</p>           
-                    </ul><img src="C:\Users\Alan\Documents\HTML\experiencia.jpg" class="Logo">
+                    </ul><img src="experiencia.jpg" class="Logo">
 
                 </div>
                 <div class="imagenes">
-                    <img src="C:\Users\Alan\Documents\HTML\deco.jpg" alt="Logo DECO-EXPRESS">
-                    <img src="C:\Users\Alan\Documents\HTML\musimundo.jpg" alt="Logo MUSIMUNDO">
-                    <img src="C:\Users\Alan\Documents\HTML\carrefour.png" alt="Logo CARREFOUR">
+                    <img src="deco.jpg" alt="Logo DECO-EXPRESS">
+                    <img src="musimundo.jpg" alt="Logo MUSIMUNDO">
+                    <img src="carrefour.png" alt="Logo CARREFOUR">
                 </div>
 
             </section>
@@ -111,7 +111,7 @@
                         <p>Capacitación a distancia Desarrollador JAVA.</p>
                         <li>ESCUELA DE COMERCIO N° 1 - D.E. 4° “DR. JOAQUIN V. GONZALEZ”</li> 
                         <p>Perito Mercantil con orientación contable e impositiva.</p>           
-                    </ul><img src="C:\Users\Alan\Documents\HTML\estudios.png" class="Logo">
+                    </ul><img src="estudios.png" class="Logo">
 
                 </div>  
                 
@@ -120,6 +120,33 @@
                 </div>
 
             </section>
+
+            <form>
+				<h3 class="titulo">¿Desea que me comunique con usted?</h3>
+
+				<label for="correoelectronico">Correo electronico</label>
+				<input type="email" id="correoelectronico" class="input-padron"required placeholder="example@example.com">
+
+				<label for="telefono">Telefono</label>
+				<input type="tel" id="telefono" class="input-padron"required placeholder="1198765432">
+
+				<label for="mensaje">Mensaje</label>
+				<textarea cols="70" rows="10" id="mensaje" class="input-padron"required placeholder="Hola Alan, tengo una propuesta para vos..."></textarea>
+
+				<fieldset>
+					<legend>¿Como le gustaria que lo contactemos?</legend>
+
+					<label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+					
+					<label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>
+					
+					<label for="radio-whatsapp"><input type="radio" name="contacto" value="Whatsapp" id="radio-whatsapp" checked>
+						Whatsapp</label>
+				</fieldset>
+
+				<input type="submit" value="Enviar formulario" class="enviar">
+
+			</form>
 
         </main>
 
